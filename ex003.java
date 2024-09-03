@@ -6,7 +6,7 @@ import java.util.Locale;
 public class ex003 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
-        float faturamento[] = new float[5];
+        float faturamento[] = new float[30];
         float maior = 0, menor = 0, media = 0;
         int dias = faturamento.length, cont = 0;
         for(int i = 0; i < faturamento.length; i ++) {
